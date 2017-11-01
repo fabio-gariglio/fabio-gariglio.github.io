@@ -4,6 +4,7 @@
   "description": "GitHub pages",
   "main": "index.js",
   "scripts": {
+    "build": "node_modules/.bin/babel src -d ../scripts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/fabio-gariglio/fabio-gariglio.github.io/issues"
   },
-  "homepage": "https://github.com/fabio-gariglio/fabio-gariglio.github.io#readme"
+  "homepage": "https://github.com/fabio-gariglio/fabio-gariglio.github.io#readme",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
 }
