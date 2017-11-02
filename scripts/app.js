@@ -6,4 +6,4 @@ const App = () => {
   );
 };
 
-ReactDOM.render(React.createElement(App, null), document.getElementById("body"));
+ReactDOM.render(React.createElement(App, null), document.getElementById("app"));
