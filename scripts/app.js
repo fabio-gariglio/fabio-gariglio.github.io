@@ -9,7 +9,7 @@ class App extends React.Component {
 
     var self = this;
 
-    fetch('https://fabio-gariglio.github.io/resumee/resumee.json').then(response => response.json()).then(responseJson => {
+    fetch('resumee/resumee.json').then(response => response.json()).then(responseJson => {
       self.setState(() => responseJson);
     });
   }
