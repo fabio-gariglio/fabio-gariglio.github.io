@@ -1,0 +1,130 @@
+{
+  "name": "Fabio Gariglio",
+  "role": "Senior Full Stack Engineer",
+  "summary": "Result driven individual with a can-do attitude and passion for technology. Good team player, thirsty of knowledge and always open to discussion and collaboration.",
+  "experiences": [
+      {
+          "title": "Senior Software Engineer",
+          "company": "trainline",
+          "city": "London",
+          "country": "United Kingdom",
+          "from": "04/2017",
+          "description": "Accountable for Trainline's payments and fraud microservices architecture in terms of design, scalability and PCI compliance.\nInvolved in cross-team architecture discussions. Speeding development process up defining best practices.\nPlaying Scrum Master role to ensure agile practices are understood and applied effectively.\nMentoring less experienced member of the team.\nInterviewing candidates for the engineering teams."
+      },
+      {
+        "title": "Agile Software Developer",
+        "company": "trainline",
+        "city": "London",
+        "country": "United Kingdom",
+        "from": "09/2015",
+        "to": "04/2017",
+        "description": "Development of payment microservices based on RESTful HATEOAS APIs.\nContinuous development approach to deploy live components minimizing risks and speeding up feature release.\nDevOps culture to ensure services reliability, cost reduction and performances accountability.\nMetrics and logs analysis to spot potential issues and platform behaviors in advance.\nDefining cross team integration strategies.\nDevelopment of Environment Manager: Trainline’s continuous delivery platform that enabled the company to completely migrate hundreds of microservices to AWS in within 12 months.\nProduction of several AWS Lambdas for cloud costs optimization and operation auditing\nIntegration with AWS products APIs (DynamoDB, EC2, S3, ELB, SNS, SQS and IAM) for large cloud infrastructure management."
+    },
+    {
+        "title": "Agile Software Developer",
+        "company": "deltatre",
+        "city": "Turin",
+        "country": "Italy",
+        "from": "12/2013",
+        "to": "07/2015",
+        "description": "Development of a dynamic web framework on top of ASP.NET MVC for high traffic websites.\nDevelopment of an AngularJS web application for real-time editorial collaboration and content editing using SignalR.\nDevelopment of a scalable event-based cloud-first infrastructure for editorial content management and distribution.\nMastering Event Sourcing, CQRS and DDD patterns.\nExtensive integration with CDN systems and distributed data cache.\n Actively member of an Agile Scrum team"
+    },
+    {
+        "title": "Software Developer",
+        "company": "deltatre",
+        "city": "Turin",
+        "country": "Italy",
+        "from": "04/2012",
+        "to": "12/2013",
+        "description": "Development of a ASP.NET web application for editorial content management used by some of the world biggest associations and news agencies such as FIFA.com, Olympic games committee, channel 4, CBC. Committed to deliver projects against strict deadlines and providing on-site 1st level support during live events followed by tens of millions of users. Re-designed the third-party asynchronous feeds processor in optic for reusability cutting down the development cost by 2/3."
+    },
+    {
+        "title": "Software Developer",
+        "company": "Sistemi",
+        "city": "Turin",
+        "country": "Italy",
+        "from": "10/2007",
+        "to": "04/2012",
+        "description": "Main developer of the off-line software used for the production, verification and transmission of the 770 tax form."
+    }
+  ],
+  "certifications": [
+    {
+        "name": "Microsoft .NET Framework - Application Development Foundation",
+        "logo": "",
+        "from": "05/2010"
+    },
+    {
+        "name": "Certified ScrumMaster®",
+        "logo": "",
+        "from": "07/2017",
+        "to": "07/2019"
+    }    
+  ],
+  "skills": [
+    {
+        "name": "C# and JavaScript",
+        "level": "Excellent"
+    },
+    {
+        "name": "ASP.NET and NodeJS",
+        "level": "Excellent"
+    },
+    {
+        "name": "MVC, Rest API, OWIN, ExpressJS and AngularJS",
+        "level": "Excellent"
+    },
+    {
+        "name": "TDD, EventSourcing, CQRS and DDD",
+        "level": "Excellent"
+    },
+    {
+        "name": "Microservices, Continuous deployment and continuous integration",
+        "level": "Excellent"
+    },
+    {
+        "name": "AWS Lambda, EC2, DynamoDB, S3, SNS, SQS and IAM",
+        "level": "Excellent"
+    },
+    {
+        "name": "T-SQL and RabbitMQ",
+        "level": "Excellent"
+    },
+    {
+        "name": "NewRelic and ELK stack",
+        "level": "Excellent"
+    },
+    {
+        "name": "VB.NET, Azure ServiceBus and Graphite",
+        "level": "Good"
+    },
+    {
+        "name": "Docker and Linux OSs",
+        "level": "Good"
+    }
+  ],
+  "languages": [
+      {
+          "name": "English",
+          "level": "Full professional"          
+      },
+      {
+        "name": "Italian",
+        "level": "Native or bilingual"          
+    }      
+  ],
+  "contacts": [
+      {
+          "name": "email",
+          "value": "garigliofabio@gmail.com"
+      },
+      {
+          "name": "linkedin",
+          "value": "https://www.linkedin.com/in/fabiogariglio"
+      },
+      {
+          "name": "github",
+          "value": "https://github.com/fabio-gariglio"
+      }
+  ]
+}
