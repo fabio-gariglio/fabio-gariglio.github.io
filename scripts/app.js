@@ -1,4 +1,9 @@
-class App extends React.Component {
+function App() {
+  return React.createElement(Resume, null);
+}
+
+ReactDOM.render(React.createElement(App, null), document.getElementById("app"));
+class Resume extends React.Component {
 
   constructor(props) {
     super(props);
@@ -16,15 +21,15 @@ class App extends React.Component {
 
   render() {
     return React.createElement(
-      "div",
+      'div',
       null,
       React.createElement(
-        "h1",
+        'h1',
         null,
         this.state.name
       ),
       React.createElement(
-        "h3",
+        'h3',
         null,
         this.state.role
       )
@@ -32,5 +37,3 @@ class App extends React.Component {
   }
 
 }
-
-ReactDOM.render(React.createElement(App, null), document.getElementById("app"));
