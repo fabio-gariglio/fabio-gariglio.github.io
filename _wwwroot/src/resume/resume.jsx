@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ExperienceList from './experienceList.jsx';
+
 module.exports = class Resume extends React.Component {
   
   constructor(props) {
@@ -24,6 +26,7 @@ module.exports = class Resume extends React.Component {
       <div>
         <h1>{this.state.name}</h1>
         <h3>{this.state.role}</h3>
+        <ExperienceList experiences={this.state.experiences} />
       </div>
     );
   }
