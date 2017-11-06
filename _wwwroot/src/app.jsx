@@ -1,5 +1,6 @@
-function App () {
-  return <Resume />
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-ReactDOM.render(<App />, document.getElementById("app"));
+import Resume from './resume/resume.jsx';
+
+ReactDOM.render(<Resume />, document.getElementById("app"));
