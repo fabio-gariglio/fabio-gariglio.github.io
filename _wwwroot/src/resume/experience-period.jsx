@@ -1,7 +1,9 @@
 import React from 'react';
 
+import styles from './style.css';
+
 module.exports = function ExperiencePeriod (props) {
     return (
-        <p>Apr 2017 - Now</p>
+        <p className={styles.experienceDate}>Apr 2017 - Now</p>
     );
 }
