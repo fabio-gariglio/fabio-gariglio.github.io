@@ -6,7 +6,7 @@ module.exports = class Resume extends React.Component {
   
   constructor(props) {
     super(props);
-    this.state = { };
+    this.state = null;
   }
 
   componentDidMount() {
@@ -22,6 +22,11 @@ module.exports = class Resume extends React.Component {
   }
 
   render () {
+
+    if (!this.state) {
+      return this.renderLoading();
+    }
+
     return (
       <div>
         <h1>{this.state.name}</h1>
@@ -29,6 +34,13 @@ module.exports = class Resume extends React.Component {
         <ExperienceList experiences={this.state.experiences} />
       </div>
     );
+
+  }
+
+  renderLoading () {
+
+    return (<div>loading...</div>);
+
   }
   
 }
