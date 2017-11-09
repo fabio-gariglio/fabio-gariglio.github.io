@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ExperiencePeriod from './experiencePeriod.jsx';
+import ExperiencePeriod from './experience-period.jsx';
 
 module.exports = function Experience (props) {
     return (

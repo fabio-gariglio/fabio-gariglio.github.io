@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ExperienceList from './experienceList.jsx';
+import ExperienceList from './experience-list.jsx';
 
 module.exports = class Resume extends React.Component {
   
