@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ExperienceList from './experience-list.jsx';
+import style from './resume.css';
 
 module.exports = class Resume extends React.Component {
   
@@ -28,7 +29,7 @@ module.exports = class Resume extends React.Component {
     }
 
     return (
-      <div>
+      <div className={style.resume}>
         <h1>{this.state.name}</h1>
         <h3>{this.state.role}</h3>
         <ExperienceList experiences={this.state.experiences} />

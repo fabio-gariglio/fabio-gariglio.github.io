@@ -1,8 +1,6 @@
 import React from 'react';
 import moment from 'moment';
 
-import styles from './style.css';
-
 module.exports = function ExperiencePeriod (props) {
 
     function stringifyDate(value) {
@@ -17,6 +15,6 @@ module.exports = function ExperiencePeriod (props) {
     var dateTo = stringifyDate(props.to);
 
     return (
-        <p className={styles.experienceDate}>{dateFrom} - {dateTo}</p>
+        <p>{dateFrom} - {dateTo}</p>
     );
 }

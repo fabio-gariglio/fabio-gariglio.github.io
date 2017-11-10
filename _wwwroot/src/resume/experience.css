@@ -1,0 +1,24 @@
+:local(.experience) {
+  display: flex;
+}
+
+:local(.period) {
+  width: 25%;
+  color: rgb(148, 148, 148);
+}
+
+:local(.details) {
+  width: 75%;
+}
+
+:local(.description) p {
+  margin: 0;
+}
+
+:local(.title) {
+  color: rgb(71, 117, 192);
+}
+
+:local(.company) {
+  font-weight: bold;
+}
