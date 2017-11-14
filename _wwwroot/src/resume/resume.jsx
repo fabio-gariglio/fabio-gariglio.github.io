@@ -1,6 +1,10 @@
 import React from 'react';
 
 import ExperienceList from './experience/experience-list.jsx';
+import CertificationList from './skills/certification-list.jsx';
+import SkillList from './skills/skill-list.jsx';
+import LanguageList from './skills/language-list.jsx';
+
 import style from './resume.css';
 
 module.exports = class Resume extends React.Component {
@@ -30,9 +34,20 @@ module.exports = class Resume extends React.Component {
 
     return (
       <div className={style.resume}>
-        <h1>{this.state.name}</h1>
-        <h3>{this.state.role}</h3>
-        <ExperienceList experiences={this.state.experiences} />
+        <div className={style.header}>
+          <h1>{this.state.name}</h1>
+          <h3>{this.state.role}</h3>
+        </div>
+        <div className={style.details}>
+          <div className={style.experiences}>
+            <ExperienceList experiences={this.state.experiences} />
+          </div>
+          <div className={style.skills}>
+            <CertificationList certifications={this.state.certifications} />
+            <SkillList skills={this.state.skills} />
+            <LanguageList languages={this.state.languages} />
+          </div>
+        </div>
       </div>
     );
 
