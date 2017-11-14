@@ -1,3 +1,11 @@
 :local(.logo) {
   height: 5em;
 }
+
+:local(.name) {
+
+}
+
+:local(.level) {
+  color: gray;
+}
