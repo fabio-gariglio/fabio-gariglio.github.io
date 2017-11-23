@@ -1,5 +1,6 @@
 import React from 'react';
 
+import ContactList from './contact-list.jsx';
 import ExperienceList from './experience/experience-list.jsx';
 import CertificationList from './skills/certification-list.jsx';
 import SkillList from './skills/skill-list.jsx';
@@ -36,7 +37,9 @@ module.exports = class Resume extends React.Component {
       <div className={style.resume}>
         <div className={style.header}>
           <h1>{this.state.name}</h1>
-          <h3>{this.state.role}</h3>
+          <h2>{this.state.role}</h2>
+          <ContactList contacts={this.state.contacts} />
+          <p>{this.state.summary}</p>
         </div>
         <div className={style.details}>
           <div className={style.experiences}>

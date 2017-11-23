@@ -5,6 +5,10 @@
 :local(.summary) {
 }
 
+:local(.contacts) {
+  color: gray;
+}
+
 :local(.details) {
   display: flex;
 }
