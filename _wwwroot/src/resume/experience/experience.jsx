@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ExperiencePeriod from './experience-period.jsx';
-import styles from './experience.css';
+import styles from './experience.scss';
 
 module.exports = function Experience (props) {
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Certification from './certification.jsx';
 
-import style from './skill.css';
+import style from './skill.scss';
 
 module.exports = function LanguageList (props) {
 

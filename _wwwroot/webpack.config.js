@@ -18,10 +18,22 @@ module.exports = {
         }
       },
       {
-        test: /.css?$/,
+        test: /\.scss?$/,
         loader: ['style-loader', 'css-loader'],
         exclude: /node_modules/
-      }      
+      },
+      {
+        test: /\.css?$/,
+        loader: 'style-loader!css-loader'
+      }           
     ]
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery',
+        Popper: ['popper.js', 'default']
+      })
+  ]
 };

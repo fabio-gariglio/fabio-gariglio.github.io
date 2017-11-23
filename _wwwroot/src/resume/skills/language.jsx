@@ -1,6 +1,6 @@
 import React from 'react';
 
-import style from './skill.css';
+import style from './skill.scss';
 
 module.exports = function Language (props) {
 

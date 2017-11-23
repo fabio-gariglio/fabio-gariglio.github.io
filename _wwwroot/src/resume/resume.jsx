@@ -6,7 +6,7 @@ import CertificationList from './skills/certification-list.jsx';
 import SkillList from './skills/skill-list.jsx';
 import LanguageList from './skills/language-list.jsx';
 
-import style from './resume.css';
+import style from './resume.scss';
 
 module.exports = class Resume extends React.Component {
   

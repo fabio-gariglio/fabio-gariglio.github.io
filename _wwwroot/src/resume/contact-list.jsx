@@ -1,6 +1,6 @@
 import React from 'react';
 
-import style from './resume.css';
+import style from './resume.scss';
 
 module.exports = function ContactList (props) {
 
