@@ -20,3 +20,8 @@
 :local(.skills) {
   width: 25%;
 }
+
+:local(.separator) {
+  background-color: rgb(71, 117, 192);
+  height: 0.1em;
+}
