@@ -15,8 +15,8 @@ module.exports = function Experience (props) {
             <ExperiencePeriod from={props.from} to={props.to} />
         </div>
         <div className={styles.details}>
-            <p className={styles.company}>{props.company}, {props.city}, {props.country}</p>
-            <p className={styles.title}>{props.title}</p>
+            <h5 className={styles.company}>{props.company}, {props.city}, {props.country}</h5>
+            <h6 className={styles.title}>{props.title}</h6>
             <div className={styles.description}>{description}</div>
         </div>
     </div>);
