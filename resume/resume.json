@@ -69,12 +69,12 @@
   "certifications": [
     {
         "name": "Microsoft Certified Professional",
-        "logo": "https://itolcdn-itonlinelearning.netdna-ssl.com/wp-content/uploads/2016/09/MCP-Certified-ITonlinelearning.png",
+        "logo": "resume/microsoft-certified-professional.png",
         "from": "05/2010"
     },
     {
         "name": "Certified ScrumMaster®",
-        "logo": "https://procognita.com/fileadmin/user_upload/logos/certified-scrum-master-seal.png",
+        "logo": "resume/certified-scrummaster.jpg",
         "from": "07/2017",
         "to": "07/2019"
     }    

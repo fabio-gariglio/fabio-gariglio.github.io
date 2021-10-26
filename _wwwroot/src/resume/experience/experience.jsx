@@ -7,7 +7,7 @@ module.exports = function Experience (props) {
 
     var description = props.description
         .split('\n')
-        .map(paragraph => (<p>{paragraph}</p>));
+        .map(paragraph => (<p>- {paragraph}</p>));
 
     return (
     <div className={styles.experience}>
