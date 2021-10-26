@@ -9,7 +9,7 @@
           "city": "London",
           "country": "United Kingdom",
           "from": "2020-09-01",
-          "description": "Leading with empathy 8-10 high performing engineers while promoting a culture of technical excellence, ownership, teamwork and self-improvement./nSupporting, mentoring and coaching team leaders through regular 1:1s providing continuous and immediate feedback./nOverseeing the payments, fraud prevention and currency conversion functions. Liaising with major stakeholders such as Security, Architecture and Platform Reliability teams./nCreating new teams aligned to business functions taking into account individual skills and objectives./nCoaching engineers on planning and delivering effectively large initiatives that have intricate dependencies and tight deadlines./nProviding input and collaborating with engineering team leads to define a quarterly technical roadmap that delivers innovation and business value; facilitating the negotiation with product owner."
+          "description": "Leading with empathy 8-10 high performing engineers while promoting a culture of technical excellence, ownership, teamwork and self-improvement.\nSupporting, mentoring and coaching team leaders through regular 1:1s providing continuous and immediate feedback.\nOverseeing the payments, fraud prevention and currency conversion functions. Liaising with major stakeholders such as Security, Architecture and Platform Reliability teams.\nCreating new teams aligned to business functions taking into account individual skills and objectives.\nCoaching engineers on planning and delivering effectively large initiatives that have intricate dependencies and tight deadlines.\nProviding input and collaborating with engineering team leads to define a quarterly technical roadmap that delivers innovation and business value; facilitating the negotiation with product owner."
       },    
       {
           "title": "Engineering Team Lead",
@@ -18,7 +18,7 @@
           "country": "United Kingdom",
           "from": "2018-04-01",
           "to": "2020-09-01",
-          "description": "Team and tech leader for Trainline's payments, fraud and multi-currency microservices architecture in terms of design, scalability and compliance to PCI-DSS./nResponsible to adopt Enterprise Software Patterns to guarantee platform stability under heavy load and infrastructure failures./nEnsuring new platform capabilities are explored, designed and documented to provide accurate estimates to the business and clear plans for the team to develop./nShaping the team culture to foster practices and behaviors in order to reduce technical debt and streamline development process."
+          "description": "Team and tech leader for Trainline's payments, fraud and multi-currency microservices architecture in terms of design, scalability and compliance to PCI-DSS.\nResponsible to adopt Enterprise Software Patterns to guarantee platform stability under heavy load and infrastructure failures.\nEnsuring new platform capabilities are explored, designed and documented to provide accurate estimates to the business and clear plans for the team to develop.\nShaping the team culture to foster practices and behaviors in order to reduce technical debt and streamline development process."
       },    
       {
           "title": "Senior Software Engineer",
